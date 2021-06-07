@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
-            android:src="@drawable/QuizApp"
+            android:src="@drawable/quizapp"
             android:id="@+id/img"/>
         <EditText
             android:layout_width="match_parent"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/name"
             android:id="@+id/ques1"
-            android:text="Q1. What does HTML stand for?"
+            android:text="Q1. What is called when a function is defined inside a class?"
             android:textSize="20dp"
             android:padding="10dp"
             android:textColor="#000000"/>
@@ -45,25 +45,34 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hyperlink"
-                android:text="Hyperlinks and Text Markup Language"/>
+                android:id="@+id/a1"
+                android:text="Method"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/home"
-                android:text="Home Tool Markup Language"/>
+                android:id="@+id/b1"
+                android:text="Module"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/hypertext"
-                android:text="Hyper Text Markup Language"/>
+                android:id="@+id/c1"
+                android:text="Another Function"/>
         </RadioGroup>
-<TextView
+ <TextView
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:id="@+id/correctAns1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/rg1"
+            android:text=" "
+            android:textColor="#000000"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/correctAns1"
             android:id="@+id/ques2"
-            android:text="Q2. How is document type initialized in HTML5.?"
+            android:text="Q2. Which of the following is the use of id() function in python?"
             android:textSize="20dp"
             android:padding="10dp"
             android:textColor="#000000"/>
@@ -76,25 +85,34 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/a"
-                android:text="</DOCTYPE HTML>"/>
+                android:id="@+id/a2"
+                android:text="Id returns the identity of the object"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/b"
-                android:text="</DOCTYPE>"/>
+                android:id="@+id/b2"
+                android:text="Every object doesn’t have a unique id"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/c"
-                android:text="<!DOCTYPE HTML>"/>
+                android:id="@+id/c2"
+                android:text="All of the mentioned"/>
         </RadioGroup>
-<TextView
+        <TextView
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:id="@+id/correctAns2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/rg2"
+            android:text=" "
+            android:textColor="#000000"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/correctAns2"
             android:id="@+id/ques3"
-            android:text="Q3. Which of the following HTML Elements is used for making any text bold ?"
+            android:text="Q3. Which of these is not a core data type?"
             android:textSize="20dp"
             android:padding="10dp"
             android:textColor="#000000"/>
@@ -107,25 +125,34 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/no1"
-                android:text="<p>"/>
+                android:id="@+id/a3"
+                android:text="Lists"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/no2"
-                android:text="<b>"/>
+                android:id="@+id/b3"
+                android:text="Dictionary"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/no3"
-                android:text="<i>"/>
+                android:id="@+id/c3"
+                android:text="Class"/>
         </RadioGroup>
-<TextView
+        <TextView
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:id="@+id/correctAns3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/rg3"
+            android:text=" "
+            android:textColor="#000000"/>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/correctAns3"
             android:id="@+id/ques4"
-            android:text="Q4. Which of the following attributes is used to add link to any element?"
+            android:text="Q4. What data type is the object below ?\nL = [1, 23, ‘hello’, 1]"
             android:textSize="20dp"
             android:padding="10dp"
             android:textColor="#000000"/>
@@ -138,54 +165,72 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/op1"
-                android:text="href"/>
+                android:id="@+id/a4"
+                android:text="Dictionary"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/op2"
-                android:text="link"/>
+                android:id="@+id/b4"
+                android:text="List"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/op3"
-                android:text="ref"/>
+                android:id="@+id/c4"
+                android:text="Tuple"/>
         </RadioGroup>
-<TextView
+        <TextView
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:id="@+id/correctAns4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/rg4"
+            android:text=" "
+            android:textColor="#000000"/>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/correctAns4"
             android:id="@+id/ques5"
-            android:text="Q5. Which of the following HTML element is used for creating an list?"
+            android:text="Q5. Which of these can take input as integer?"
             android:textSize="20dp"
             android:padding="10dp"
             android:textColor="#000000"/>
         <CheckBox
-            android:layout_below="@id/ques4"
+            android:layout_below="@id/ques5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ans1"
-            android:text="<ul>"/>
+            android:id="@+id/a5"
+            android:text="int(input())"/>
         <CheckBox
-            android:layout_below="@id/ans1"
+            android:layout_below="@id/a5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ans2"
-            android:text="<ui>"/>
+            android:id="@+id/b5"
+            android:text="input()"/>
         <CheckBox
-            android:layout_below="@id/ans2"
+            android:layout_below="@id/b5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ans3"
-            android:text="<li>"/>
+            android:id="@+id/c5"
+            android:text="eval(input())"/>
         <CheckBox
-            android:layout_below="@id/ans3"
+            android:layout_below="@id/c5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ans4"
-            android:text="<ol>"/>
+            android:id="@+id/d5"
+            android:text="int(input))"/>
+        <TextView
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:id="@+id/correctAns5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d5"
+            android:text=" "
+            android:textColor="#000000"/>
         <LinearLayout
-            android:layout_below="@id/ans3"
+            android:layout_below="@id/correctAns5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/layout"
@@ -201,7 +246,7 @@
             <TextView
                 android:padding="10dp"
                 android:textSize="20dp"
-                android:id="@+id/score"
+                android:id="@+id/finalScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAllCaps="true"
@@ -211,7 +256,7 @@
         </LinearLayout>
 
         <Button
-            android:paddingTop="16dp"
+            android:paddingTop="10dp"
             android:layout_below="@id/layout"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
@@ -219,8 +264,7 @@
             android:layout_height="wrap_content"
             android:text="SUBMIT"
             android:id="@+id/submit"
-            android:background="#008000"
-            android:onClick="display"
-            />
+            android:background="#053E05"
+            android:onClick="displayMarks"/>
     </RelativeLayout>
 </ScrollView>
