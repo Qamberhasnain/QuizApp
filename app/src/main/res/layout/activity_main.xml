@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/QuizApp"
+            android:id="@+id/img"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:padding="20dp"
+            android:id="@+id/name"
+            android:hint="Enter your name"/>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:id="@+id/ques1"
+            android:text="Q1. What does HTML stand for?"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques1"
+            android:id="@+id/rg1"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hyperlink"
+                android:text="Hyperlinks and Text Markup Language"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home"
+                android:text="Home Tool Markup Language"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hypertext"
+                android:text="Hyper Text Markup Language"/>
+        </RadioGroup>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg1"
+            android:id="@+id/ques2"
+            android:text="Q2. How is document type initialized in HTML5.?"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques2"
+            android:id="@+id/rg2"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/a"
+                android:text="</DOCTYPE HTML>"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/b"
+                android:text="</DOCTYPE>"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/c"
+                android:text="<!DOCTYPE HTML>"/>
+        </RadioGroup>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg2"
+            android:id="@+id/ques3"
+            android:text="Q3. Which of the following HTML Elements is used for making any text bold ?"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques3"
+            android:id="@+id/rg3"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/no1"
+                android:text="<p>"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/no2"
+                android:text="<b>"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/no3"
+                android:text="<i>"/>
+        </RadioGroup>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg3"
+            android:id="@+id/ques4"
+            android:text="Q4. Which of the following attributes is used to add link to any element?"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques4"
+            android:id="@+id/rg4"
+            android:orientation="vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/op1"
+                android:text="href"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/op2"
+                android:text="link"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/op3"
+                android:text="ref"/>
+        </RadioGroup>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg4"
+            android:id="@+id/ques5"
+            android:text="Q5. Which of the following HTML element is used for creating an list?"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textColor="#000000"/>
+        <CheckBox
+            android:layout_below="@id/ques4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans1"
+            android:text="<ul>"/>
+        <CheckBox
+            android:layout_below="@id/ans1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans2"
+            android:text="<ui>"/>
+        <CheckBox
+            android:layout_below="@id/ans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans3"
+            android:text="<li>"/>
+        <CheckBox
+            android:layout_below="@id/ans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans4"
+            android:text="<ol>"/>
+        <LinearLayout
+            android:layout_below="@id/ans3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout"
+            android:orientation="vertical">
+            <TextView
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textSize="20dp"
+                android:text="Quiz Report Card"
+                android:textColor="#000000"/>
+            <TextView
+                android:padding="10dp"
+                android:textSize="20dp"
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:text=" "
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <Button
+            android:paddingTop="16dp"
+            android:layout_below="@id/layout"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:id="@+id/submit"
+            android:background="#008000"
+            android:onClick="display"
+            />
+    </RelativeLayout>
+</ScrollView>
